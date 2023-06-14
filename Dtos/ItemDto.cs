@@ -1,13 +1,12 @@
 using System;
 
-namespace Rpg.Entities
+namespace Rpg.Dtos
 {
-    public record Item
+    public record ItemDto
     {
         public Guid Id { get; init; }
         public string Name { get; init; }         
         public decimal Price { get; init; }
         public DateTimeOffset CreatedDate { get; init; }
     }
-    
 }
